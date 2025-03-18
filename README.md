@@ -2,7 +2,7 @@
 
 # Assignment Description
 
-This project has been implemented according to the isntructions given in Python_Development_Case_3 (1) (1) (1) (2).pdf file.
+This project has been implemented according to the instructions given in Python_Development_Case_3.pdf file.
 
 
 ##  Setting up Environment
