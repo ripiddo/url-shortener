@@ -1,0 +1,23 @@
+version: "3.5"
+services:
+  flaskapi:
+    build: urlshortener
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/urlshortener
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    image: mysql:5.7.22
+    restart: always
+    environment:
+      MYSQL_DATABASE: urlshortener
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - .dbdata:/var/lib/mysql
+    ports:
+      - 33066:3306
