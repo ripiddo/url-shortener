@@ -69,7 +69,7 @@ $ python setup.py test
 * **Redundancy** 
   - There is no redundancy. Could be implemented via data replication or wiritng to second DB via Queues. (I am making a ltof assumptiıons and did not do enough thinking/reading about this matter)
 * **Security**
-  - ???
+  - As discussed
   
 
 ## Sample Request
